@@ -8,15 +8,28 @@
 
   <div class="grid">
     <CountryCard />
+    <CountryCard />
+    <CountryCard />
+    <CountryCard />
+    <CountryCard />
+    <CountryCard />
+    <CountryCard />
+    <CountryCard />
+    <CountryCard />
   </div>
 </div>
 
 <style>
   .container {
-    padding: 2em 4em 0 4em;
+    margin: 2em min(2em, 5%) 0;
   }
 
   .grid {
-      padding-top: 2em;
+    margin: 0 auto;
+    padding-top: 2em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
   }
 </style>

@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 4em;
+        padding: 0 min(2em, 5%);
     }
 
     h3 {
